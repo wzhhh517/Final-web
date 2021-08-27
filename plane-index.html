@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+	<title>skrollr - parallax scrolling for the masses</title>
+
+
+
+	<link href="css/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+<div style="width: 100%;">
+  <div id="section1" data-0="top:0%;" data-1400="opacity:1"data-2000="opacity:0">
+	<div class="full-bg" data-0="opacity:0;top:3%;" data-10="opacity:1;top:0;" data-1000="opacity:1;transform:scale(1)"data-1500="opacity:0;transform:scale(0.2)"> 
+		<img class="image" src="images/pl-pl.png" alt=""> 
+	</div>
+	<div class="full-bg" data-100="top:100%;" data-1100="top:-100%;"> 
+		<img class="image" src="images/pl-title.png" alt=""> 
+	</div>
+	<div class="full-bg" data-500="top:100%;" data-1500="top:-100;"> 
+		<img class="image" src="images/pl-cont.png" alt=""> 
+	</div>
+	<div id="scroll" class="full-bg" data-100="opacity:0;top:3%;" data-500="opacity:1;top:0;" data-1000="opacity:1;top:0;"data-1500="opacity:0;top:-3%;"> 
+		<img class="image" src="images/pl-arrow.png" alt=""> 
+	</div>
+  </div>
+
+  <div id="section2" data-1400="opacity:0;"data-2000="opacity:1;"data-7000="top:0%;"data-8000="top:-100%;">
+	<div class="full-bg" data-2000="opacity:0;left:5%;" data-2300="opacity:1;left:0;"> 
+		<img class="image" src="images/pl-bg2.1.png" alt=""> 
+	</div>
+	<div class="full-bg" data-2300="opacity:0;top:3%;" data-2500="opacity:1;top:0;"data-3300="opacity:1;top:0;" data-3500="opacity:0;top:-3%;"> 
+		<img class="image" src="images/pl-cont2.png" alt=""> 
+	</div>
+	<div class="full-bg" data-3500="opacity:0;top:-3%;" data-4000="opacity:1;top:0;"> 
+		<img class="image" src="images/pl-decline1.png" alt=""> 
+	</div>
+	<div class="full-bg" data-4000="opacity:0;top:-3%;" data-4500="opacity:1;top:0;"> 
+		<img class="image" src="images/pl-decline1.1.png" alt=""> 
+	</div>	<div class="full-bg" data-4500="opacity:0;top:-3%;" data-5000="opacity:1;top:0;"> 
+		<img class="image" src="images/pl-decline2.png" alt=""> 
+	</div>
+	<div class="full-bg" data-5000="opacity:0;top:-3%;" data-5500="opacity:1;top:0;"> 
+		<img class="image" src="images/pl-decline2.1.png" alt=""> 
+	</div>	<div class="full-bg" data-5500="opacity:0;top:-3%;" data-6000="opacity:1;top:0;"> 
+		<img class="image" src="images/pl-decline3.png" alt=""> 
+	</div>
+	<div class="full-bg" data-6000="opacity:0;top:-3%;" data-6500="opacity:1;top:0;"> 
+		<img class="image" src="images/pl-decline3.1.png" alt=""> 
+	</div>
+  </div>
+
+  <div id="section3" data-7000="top:100%;"data-8000="top:0%;"data-12000="opacity:1"data-13000="opacity:0">
+	<div class="full-bg" data-7500="left:-20%" data-8000="left:0%" data-9000="opacity:1;"data-10000="opacity:0;">
+		<img class="image" src="images/pl-databig1.png" alt=""> 
+	</div>
+	<div class="full-bg" data-8000="right:-20%" data-8500="right:0%" data-9000="opacity:1;"data-10000="opacity:0;"> 
+		<img class="image" src="images/pl-databig2.png" alt=""> 
+	</div>
+	<div class="full-bg" data-10000="opacity:0;"data-11000="opacity:1;"> 
+		<img class="image" src="images/pl-data.png" alt=""> 
+	</div>
+  </div>
+
+  <div id="section4" data-12000="opacity:0"data-13000="opacity:1">
+	<div class="full-bg" data-13000="top:-15%;opacity:0;transform:scale(0.1)"data-14000="top:-3%;opacity:1;transform:scale(1)">
+		<img class="image" src="images/pl-pl2.png" alt=""> 
+	</div>
+    <div class="button" style="margin: auto" data-14000="opacity:0"data-14500="opacity:1">
+		<ul>
+		  <a href="plane-data.html">
+			Explore the data
+			<span></span><span></span><span></span><span></span>
+		  </a>
+		  <a href="index.html">
+			Back to homepage
+			<span></span><span></span><span></span><span></span>
+		  </a>
+		</ul>
+	</div>
+  </div>
+</div>
+
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+
+
+
+	<!--[if lt IE 9]>
+
+	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
+
+	<![endif]-->
+
+
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+
+		edgeStrategy: 'set',
+
+		easing: {
+
+			WTF: Math.random,
+
+			inverted: function(p) {
+
+				return 1-p;
+
+			}
+
+		}
+
+	});
+	</script>
+	 <script type='text/javascript'>                    var divElement = document.getElementById('viz1629617770646');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1400px';vizElement.style.height='927px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+
+
+</body>
+
+
+
+</html>
+

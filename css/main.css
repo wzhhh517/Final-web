@@ -1,0 +1,275 @@
+
+#section1 {
+	background-origin: padding-box;
+	background:url("../images/pl-bg.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+.full-bg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index: 0
+}
+.image{
+	max-width: 100%;
+	max-height: 100%;
+}
+#section2 {
+	background-origin: padding-box;
+	background:url("../images/pl-bg2.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+.content{
+	max-width: 100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0,auto;
+}
+
+.sub-title{
+	text-align: center;
+	font-family:'Lora';
+	font-size:16px;
+	line-height: 28px;
+
+}
+.paragragh{
+	text-align: center;
+	font-family:'Roboto',Thin 100;
+	font-weight: 300;
+	font-size:12px;
+	line-height: 12px;
+	padding: 2rem;
+}
+#section3 {
+	background-origin: padding-box;
+	background:url("../images/pl-title2.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#section4 {
+	background-origin: padding-box;
+	background:url("../images/pl-bg3.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+.button ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button ul a {
+    --c: #2825f5;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.1em solid var(--c);
+    width: 12em;
+    height: 3em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+	display: block;
+}
+
+.button ul a span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.button ul a:hover {
+    color: #ffffff;
+}
+
+.button ul a:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.button ul a span:nth-child(1) {
+    --n: 1;
+}
+
+.button ul a span:nth-child(2) {
+    --n: 2;
+}
+
+.button ul a span:nth-child(3) {
+    --n: 3;
+}
+
+.button ul a span:nth-child(4) {
+    --n: 4;
+}
+
+.button{
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#section2-1 {
+	background-origin: padding-box;
+	background:url("../images/film-bg.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+#section2-2 {
+	background-origin: padding-box;
+	background:url("../images/film-tl.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+#section2-3 {
+	background-origin: padding-box;
+	background:url("../images/film-bg2.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+#section2-4 {
+	background-origin: padding-box;
+	background:url("../images/fim-bubble1.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+#section2-5 {
+	background-origin: padding-box;
+	background:url("../images/film-end.png") repeat 0 0;
+    background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+.button2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button2 ul a {
+    --c: #DAFF01;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.1em solid var(--c);
+    width: 12em;
+    height: 3em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+	display: block;
+}
+
+.button2 ul a span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.button2 ul a:hover {
+    color: #000;
+}
+
+.button2 ul a:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.button2 ul a span:nth-child(1) {
+    --n: 1;
+}
+
+.button2 ul a span:nth-child(2) {
+    --n: 2;
+}
+
+.button2 ul a span:nth-child(3) {
+    --n: 3;
+}
+
+.button2 ul a span:nth-child(4) {
+    --n: 4;
+}
+
+.button2{
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
